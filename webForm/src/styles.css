@@ -1,0 +1,60 @@
+@tailwind base;
+
+#web-form {
+  width: 500px;
+}
+
+.web-form-step {
+  @apply p-4;
+}
+
+h3 {
+  @apply font-bold;
+}
+
+.web-form-navigation {
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+  @apply p-4;
+}
+
+.navigation-buttons {
+  @apply bg-salestrekker-button;
+  @apply text-white;
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply rounded;
+}
+
+.navigation-buttons:hover {
+  @apply bg-salestrekker-button-hover;
+}
+
+.light {
+  @apply bg-white;
+  @apply text-black;
+}
+
+.dark {
+  @apply bg-black;
+  @apply text-white;
+}
+
+@screens dark {
+  body {
+    @apply bg-black;
+    @apply text-white;
+  }
+}
+
+.form-radio {
+}
+@tailwind components;
+@import "./components/select/selectComponent.css";
+@import "./components/text/textComponent.css";
+@import "./components/dropdown/dropdownComponent.css";
+@import "./components/multiselect/multiselectComponent.css";
+@import "./components/location/locationComponent.css";
+@tailwind utilities;

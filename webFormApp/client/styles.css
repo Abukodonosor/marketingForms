@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@import "./component/home/home.css";
+@import "./component/demoView/demoView.css";
+@tailwind utilities;

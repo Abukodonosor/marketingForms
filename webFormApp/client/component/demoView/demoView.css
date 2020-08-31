@@ -1,0 +1,36 @@
+.demo-iframe {
+  border: 0;
+  height: 600px;
+  width: 100%;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+.navigation-buttons {
+  @apply bg-red-400;
+  @apply text-white;
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply rounded;
+  @apply cursor-pointer;
+  @apply mx-12;
+}
+
+.web-form-navigation {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply p-4;
+}
+
+.generated-code {
+  height: 107px;
+  @apply w-full;
+  background: #f6f6f6;
+  box-sizing: border-box;
+}
+
+.web-form-view {
+  margin-top: 15px;
+}

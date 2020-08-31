@@ -1,0 +1,130 @@
+{
+  "Apply now": [
+    {
+      "stepName": "objectivesPage",
+      "visible": true,
+      "fields": ["objectives"]
+    },
+    {
+      "stepName": "desiredAmountPage",
+      "visible": true,
+      "fields": ["desireAmount"]
+    },
+    {
+      "stepName": "applicationPurposePage",
+      "visible": true,
+      "fields": ["applicationPurpose"]
+    },
+    {
+      "stepName": "currentLanderLoanBalancePage",
+      "visible": true,
+      "fields": ["current_lender", "loan_balance", "interest_rate"]
+    },
+    {
+      "stepName": "propertyUsedForPage",
+      "visible": true,
+      "fields": ["propertyUsedFor"]
+    },
+    {
+      "stepName": "investIncomeFreqPage",
+      "visible": true,
+      "fields": ["investment_income", "frequency_drop"]
+    },
+    {
+      "stepName": "propertyAddressPage",
+      "visible": true,
+      "fields": ["demoFieldLocation"]
+    },
+    {
+      "stepName": "approximatePropertyValuePage",
+      "visible": true,
+      "fields": ["approximatePropertyValue"]
+    },
+    {
+      "stepName": "numberOfApplicantsPage",
+      "visible": true,
+      "fields": ["numberOfApplicants"]
+    },
+    {
+      "stepName": "relationStatusPage",
+      "visible": true,
+      "fields": ["relationStatus"]
+    },
+    {
+      "stepName": "personalInfoPage",
+      "visible": true,
+      "fields": [
+        "personal_info_name",
+        "personal_info_surname",
+        "personal_info_phone",
+        "personal_info_email",
+        "personal_info_notes"
+      ]
+    }
+  ],
+  "Asset Finance": [
+    {
+      "stepName": "objectivesPage",
+      "visible": true,
+      "fields": ["objectives"]
+    },
+    {
+      "stepName": "desiredAmountPage",
+      "visible": true,
+      "fields": ["desireAmount"]
+    },
+    {
+      "stepName": "assetTypePage",
+      "visible": true,
+      "fields": ["assetType"]
+    },
+    {
+      "stepName": "assetCostPage",
+      "visible": true,
+      "fields": ["assetCost"]
+    },
+    {
+      "stepName": "businessPurposesPage",
+      "visible": true,
+      "fields": ["businessPurposes"]
+    },
+    {
+      "stepName": "numberOfApplicantsPage",
+      "visible": true,
+      "fields": ["numberOfApplicants"]
+    },
+    {
+      "stepName": "relationStatusPage",
+      "visible": true,
+      "fields": ["relationStatus"]
+    },
+    {
+      "stepName": "personalInfoPage",
+      "visible": true,
+      "fields": [
+        "personal_info_name",
+        "personal_info_surname",
+        "personal_info_phone",
+        "personal_info_email",
+        "personal_info_notes"
+      ]
+    }
+  ],
+  "Get in tach with us": [
+    {
+      "stepName": "nameAndFamilyInformation",
+      "visible": true,
+      "fields": ["firstName", "familyName"]
+    },
+    {
+      "stepName": "contactInformation",
+      "visible": true,
+      "fields": ["email", "phone"]
+    },
+    {
+      "stepName": "contactMessage",
+      "visible": true,
+      "fields": ["message"]
+    }
+  ]
+}
